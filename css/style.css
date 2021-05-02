@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    direction: rtl;
+  
+}
+.bg{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url(../img/WhatsApp\ Image\ 2021-05-02\ at\ 10.32.51\ PM.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.content{
+    margin-top: 300px;
+    text-align: right;
+}
+.content h2{
+    text-align: right;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 12px auto;
+    font-size: 40px;
+    font-family:Tajawal;
+    
+   
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.content h4{
+    font-size: 30px;
+    color: #fff;
+    margin: 12px auto;
+    font-family:Tajawal;
+}
+button{
+    width: 180px;
+    height: 50px;
+    background: #8b6a28;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transform: all 1s;
+    direction: ltr;
+    font-size: 18px;
+   
+}
+button:hover{
+    background-color: #f1c40f;
+}
+.button i{
+    margin-right: 12px;
+}
+@font-face{
+    src: url(../font/Tajawal-Bold.ttf);
+    font-family: Tajawal;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    padding: 7px;
+    background-color: #1c1c1c;
+    text-align: center;
+    display: none;
+}
+header img{
+    width:150px;
+    height: 150px;
+}
